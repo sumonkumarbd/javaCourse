@@ -14,7 +14,10 @@ public class STRINGS {
         System.out.println(lname); */
 
         // --toUpperCase method
-        String uname = name.toUpperCase(Locale.ROOT);
-        System.out.println(uname);
+        /*String uname = name.toUpperCase(Locale.ROOT);
+        System.out.println(uname);*/
+
+        // -- String.lenth method
+        System.out.println(name.length());
     }
 }
