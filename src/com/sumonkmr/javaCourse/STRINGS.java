@@ -18,6 +18,12 @@ public class STRINGS {
         System.out.println(uname);*/
 
         // -- String.lenth method
-        System.out.println(name.length());
+        // --System.out.println(name.length());
+
+        // -- string,trim methode
+        String nonTrimmedString = "      Sumon        ";
+        System.out.printf("This is nonTrimmedString : %s %n", nonTrimmedString);
+        String trimmedString = nonTrimmedString.trim();
+        System.out.printf("This is TrimmedString : %s", trimmedString);
     }
 }
