@@ -10,7 +10,11 @@ public class STRINGS {
         // --Strings All methods
 
         // -- toLowerCase method
-        String lname = name.toLowerCase(Locale.ROOT);
-        System.out.println(lname);
+       /* String lname = name.toLowerCase(Locale.ROOT);
+        System.out.println(lname); */
+
+        // --toUpperCase method
+        String uname = name.toUpperCase(Locale.ROOT);
+        System.out.println(uname);
     }
 }
