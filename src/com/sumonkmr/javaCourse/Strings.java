@@ -32,9 +32,15 @@ public class Strings {
         System.out.printf("After appling replace method : %S",repName);*/
 
         // -- String.subatring , method
-        String subName = name.substring(2);
+        /*String subName = name.substring(2);
         String sub2Name = name.substring(1,3);
         System.out.printf("This is an example of substring method. We are pass 2 as value of %s so Its Show from 3rd charecter. %s %n",name,subName);
-        System.out.printf("This is an example of substring method. We are pass 1 and 3 as value of %s so Its Show from 2nd and 4rd charecter. %s",name,sub2Name);
+        System.out.printf("This is an example of substring method. We are pass 1 and 3 as value of %s so Its Show from 2nd and 4rd charecter. %s",name,sub2Name);*/
+
+        // -- String.StartWith method
+        boolean startWithName = name.startsWith("Su");
+        boolean endWithName = name.endsWith("on");
+        System.out.printf("Here we given the value Su , Its Chack value from the start of %s and the result is: %s %n",name,startWithName);
+        System.out.printf("Here we given the value on , Its Chack value from the end of %s and the result is: %s",name,endWithName);
     }
 }
