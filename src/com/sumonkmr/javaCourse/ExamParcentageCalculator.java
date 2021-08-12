@@ -2,7 +2,7 @@ package com.sumonkmr.javaCourse;
 
 import java.util.Scanner;
 
-public class EXAM_PARSENTAGE_CALCULATOR {
+public class ExamParcentageCalculator {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

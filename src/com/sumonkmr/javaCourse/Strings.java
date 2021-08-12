@@ -2,7 +2,7 @@ package com.sumonkmr.javaCourse;
 
 import java.util.Locale;
 
-public class STRINGS {
+public class Strings {
     public static void main(String[] args) {
         String name = "Sumon";
        // System.out.printf("My nam is %s",name);

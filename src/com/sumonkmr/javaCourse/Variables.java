@@ -1,6 +1,6 @@
 package com.sumonkmr.javaCourse;
 
-public class VARIABLES {
+public class Variables {
     public static void main(String[] args) {
         String name = "Sumonkmr";
         byte age = 25;

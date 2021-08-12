@@ -2,7 +2,7 @@ package com.sumonkmr.javaCourse;
 
 import java.util.Scanner;
 
-public class SIMPLE_CALCULATOR {
+public class SimpleCalculator {
     public static void main(String[] args) {
         Scanner se = new Scanner(System.in);
 

@@ -2,7 +2,7 @@ package com.sumonkmr.javaCourse;
 
 import java.util.Scanner;
 
-public class USER_INPUT {
+public class UserInput {
     public static void main(String[] args) {
 //        Code here
         Scanner sc = new Scanner(System.in);

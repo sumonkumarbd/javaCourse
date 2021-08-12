@@ -1,6 +1,6 @@
 package com.sumonkmr.javaCourse;
 
-public class LITERALS {
+public class Literals {
     public static void main(String[] args) {
         //        code here
         int age = 25;

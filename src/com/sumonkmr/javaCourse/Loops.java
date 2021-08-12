@@ -1,6 +1,6 @@
 package com.sumonkmr.javaCourse;
 
-public class LOOPS {
+public class Loops {
     public static void main(String[] args) {
 
 
