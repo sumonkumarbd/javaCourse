@@ -27,8 +27,12 @@ public class Strings {
         System.out.printf("This is TrimmedString : %s", trimmedString);*/
 
         // -- string.replace method
-        System.out.printf("This is Old string is : %s %n",name);
+       /* System.out.printf("This is Old string is : %s %n",name);
         String repName = name.replace("mon","mir");
-        System.out.printf("After appling replace method : %S",repName);
+        System.out.printf("After appling replace method : %S",repName);*/
+
+        // -- String.subatring , method
+        String subName = name.substring(2);
+        System.out.printf("This is an example of substring method. We are pass 2 as value of %s so Its Show from 3rd charecter. %s",name,subName);
     }
 }
