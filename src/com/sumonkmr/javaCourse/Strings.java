@@ -33,6 +33,8 @@ public class Strings {
 
         // -- String.subatring , method
         String subName = name.substring(2);
-        System.out.printf("This is an example of substring method. We are pass 2 as value of %s so Its Show from 3rd charecter. %s",name,subName);
+        String sub2Name = name.substring(1,3);
+        System.out.printf("This is an example of substring method. We are pass 2 as value of %s so Its Show from 3rd charecter. %s %n",name,subName);
+        System.out.printf("This is an example of substring method. We are pass 1 and 3 as value of %s so Its Show from 2nd and 4rd charecter. %s",name,sub2Name);
     }
 }
