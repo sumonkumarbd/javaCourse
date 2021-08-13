@@ -44,7 +44,15 @@ public class Strings {
         System.out.printf("Here we given the value on , Its Chack value from the end of %s and the result is: %s",name,endWithName);*/
 
         // -- String.charat method
-        char cName = name.charAt(2);
-        System.out.printf("It's take 3rd char of the %s , because we are pass 2. And the result is : %s",name,cName);
+        /*char cName = name.charAt(2);
+        System.out.printf("It's take 3rd char of the %s , because we are pass 2. And the result is : %s",name,cName);*/
+
+        // -- IndexOf method
+        int inName = name.indexOf("m");
+        System.out.printf("It's apply for showing what is the index of the %s , so we are pass m. And the result is : %d %n",name,inName);
+
+        // -last index of string
+        int linName = name.lastIndexOf("u");
+        System.out.printf("It's apply for showing what is the index of the %s from revarse, so we are pass u. And the result is : %d ",name,linName);
     }
 }
