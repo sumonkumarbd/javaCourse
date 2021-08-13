@@ -48,11 +48,17 @@ public class Strings {
         System.out.printf("It's take 3rd char of the %s , because we are pass 2. And the result is : %s",name,cName);*/
 
         // -- IndexOf method
-        int inName = name.indexOf("m");
+        /*int inName = name.indexOf("m");
         System.out.printf("It's apply for showing what is the index of the %s , so we are pass m. And the result is : %d %n",name,inName);
 
         // -last index of string
         int linName = name.lastIndexOf("u");
-        System.out.printf("It's apply for showing what is the index of the %s from revarse, so we are pass u. And the result is : %d ",name,linName);
+        System.out.printf("It's apply for showing what is the index of the %s from revarse, so we are pass u. And the result is : %d ",name,linName);*/
+
+        // -- String.equal method
+        boolean eqName = name.equals("Sumon");
+        boolean eqNameIgnorCase = name.equalsIgnoreCase("suMon");
+        System.out.printf("If the given value is match to %s , then we are see here a boolean value .So in that case the result is : %b %n",name,eqName);
+        System.out.printf("If the given value is match to %s and also Igonoring the case of characters. Then we are see here a boolean value .So in that case the result is : %b %n",name,eqNameIgnorCase);
     }
 }
