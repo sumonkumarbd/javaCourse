@@ -6,10 +6,21 @@ public class MethodOverLoading {
         System.out.println("Hi This is a method of class");
     } // -- end msg
 
+    static void change1 (int a){
+        a = 20;
+    } // --end change1
+
 
     public static void main(String[] args) {
         // -- Executable code
-        msg();
+
+       // msg();
+
+        // -- Changing int
+        int x = 70;
+        change1(x);
+        System.out.println("So x is :"+x);
+
 
 
 
