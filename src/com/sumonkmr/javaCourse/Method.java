@@ -34,7 +34,7 @@ public class Method {
         // -- making object of invocation
         Method mobj = new Method();
         int a = 10;
-        int b = 5;s
+        int b = 5;
         int res = mobj.invocation(a , b);
         System.out.printf("This is an example of invocation or creat object of class. And the result is : %d %n ",res);
 
